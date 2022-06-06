@@ -1,13 +1,13 @@
 {
     "credentials": {
-        "tenantName": "fabrikamb2c.onmicrosoft.com",
-        "clientID": "93733604-cc77-4a3c-a604-87084dd55348"
+        "tenantName": "synqdev.onmicrosoft.com",
+        "clientID": "0343c8d5-4260-44d0-8cc7-62ebbf89bb60"
     },
     "policies": {
-        "policyName": "B2C_1_susi"
+        "policyName": "B2C_1_signupsignin1"
     },
     "metadata": {
-        "b2cDomain": "fabrikamb2c.b2clogin.com",
+        "b2cDomain": "synqdev.b2clogin.com",
         "authority": "login.microsoftonline.com",
         "discovery": ".well-known/openid-configuration",
         "version": "v2.0"
