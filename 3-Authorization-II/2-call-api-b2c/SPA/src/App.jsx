@@ -33,7 +33,7 @@ const Pages = () => {
    * For more, visit: https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-react/docs/events.md
    */
   useEffect(() => {
-    useLogin() 
+    // useLogin() 
     const callbackId = instance.addEventCallback((event) => {
       if (event.eventType === EventType.LOGIN_FAILURE) {
         if (event.error && event.error.errorMessage.indexOf("AADB2C90118") > -1) {
